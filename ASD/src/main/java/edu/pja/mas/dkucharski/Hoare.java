@@ -1,6 +1,6 @@
 package edu.pja.mas.dkucharski;
 
-public class Hoare {
+public abstract class Hoare {
     /**
      * Implements the Hoare partitioning scheme for QuickSort.
      * @param array The array to be partitioned.

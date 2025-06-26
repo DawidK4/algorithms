@@ -1,6 +1,6 @@
 package edu.pja.mas.dkucharski;
 
-public class Sort {
+public abstract class Sort {
     /**
      * Implements the Selection Sort algorithm to sort an array of integers in ascending order.
      * @param array The array to be sorted.

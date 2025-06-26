@@ -1,6 +1,6 @@
 package edu.pja.mas.dkucharski;
 
-public class Search {
+public abstract class Search {
     /**
      * Performs a Jump Search to find the index of a target key in a sorted array.
      *
