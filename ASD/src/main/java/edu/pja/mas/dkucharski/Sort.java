@@ -21,4 +21,23 @@ public class Sort {
             array[i] = temp;
         }
     }
+
+    /**
+     * Implements the Insertion Sort algorithm to sort an array of integers in ascending order.
+     * @param array The array to be sorted.
+     */
+    public static void insertionSort(int[] array) {
+        int n = array.length;
+
+        for (int i = 1; i < n; i++) {
+            int key = array[i];
+            int j = i - 1;
+
+            while (j >= 0 && array[j] > key) {
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = key;
+        }
+    }
 }
